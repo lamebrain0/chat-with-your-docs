@@ -6,7 +6,7 @@ from langchain.chains import RetrievalQA, ConversationalRetrievalChain
 import os
 import openai
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = " "
 openai.api_key = os.environ['OPENAI_API_KEY']
 
 with open('docs.txt', 'r') as file:
