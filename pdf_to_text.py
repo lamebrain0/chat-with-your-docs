@@ -9,7 +9,9 @@ def pdf_to_text(pdf_path):
     doc.close()
     return text
 def main():
+    #mention the name of your directory containing the pdfs.
     pdf_dir = "docs"
+    
     output_file = "docs.txt"
     
     if not os.path.exists(pdf_dir):
