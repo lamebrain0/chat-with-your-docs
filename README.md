@@ -17,3 +17,4 @@ Ask questions to your documents using the power of openai api key and langchain.
 
        Note:- dont forget to use openai api key.and keep the size of single pdf less than 15 mb.you can keep 100s of pdf but single pdf should not be more than 15mb 
               for more accuracy.
+       Note:- use merge_index.py to merge 2 indexs.
