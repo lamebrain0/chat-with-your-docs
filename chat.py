@@ -4,7 +4,7 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chains import RetrievalQA, ConversationalRetrievalChain
 import os
 import openai
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = " "
 openai.api_key = os.environ['OPENAI_API_KEY']
 vector_index = FAISS.load_local("index_stores", OpenAIEmbeddings())
 retriever = vector_index.as_retriever(search_type="similarity",search_kwargs={"k":4})
