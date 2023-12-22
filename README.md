@@ -2,9 +2,9 @@ Ask questions to your documents using the power of openai api key and langchain.
 
 
                             ENVIRONMENT SETUP
-step1 :- after cloning this repository ..run pip install -r requirements.txt.
+       step1 :- after cloning this repository ..run pip install -r requirements.txt.
 
-step2:- keep as many pdfs u want to keep in the docs folder..
+       step2:- keep as many pdfs u want to keep in the docs folder..
 
 step3:- Run python pdf_to_text.py (it wiill extract all the tetxs from the pdfs and store it in a single .txt file)
 
